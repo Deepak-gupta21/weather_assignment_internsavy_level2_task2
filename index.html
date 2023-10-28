@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="countdown-container">
+        <h1>Countdown Timer</h1>
+        <input type="datetime-local" id="date-time-input">
+        <button onclick="startCountdown()">Start Countdown</button>
+        <div id="countdown" class="hidden">
+            <span id="countdown-text">Countdown:</span>
+            <span id="countdown-timer">00:00:00</span>
+        </div>
+        <div id="countdown-complete" class="hidden">
+            <h2>Countdown Complete!</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
